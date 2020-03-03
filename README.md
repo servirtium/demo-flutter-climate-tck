@@ -1,4 +1,4 @@
-# servertium_flutter
+# servertium_flutter_driver_demo
 
 A new Flutter project.
 
@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## How to run the example
+- Direct test
+    - `flutter drive -t test_driver/average_rainfall_direct.dart`
+- Recording test
+    - `flutter drive -t test_driver/average_rainfall_recording.dart`
+- Playback test
+    - `flutter drive -t test_driver/average_rainfall_playback.dart`
